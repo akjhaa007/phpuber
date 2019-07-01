@@ -1,0 +1,23 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ],
+  "description": "test for uber",
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "phpuber",
+  "scripts": {
+    "postdeploy": "bin/setup"
+  },
+  "stack": "heroku-18"
+}
